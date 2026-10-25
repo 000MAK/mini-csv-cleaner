@@ -1,0 +1,9 @@
+[project]
+name = "mini-csv-cleaner"
+version = "0.1.0"
+description = "Trims cell whitespace, skips fully blank rows, and optionally removes duplicate rows. Does not overwrite the input file."
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.ruff]
+line-length = 100
